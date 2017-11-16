@@ -74,8 +74,7 @@ body {
 .searchBar form {
 	margin-top: 0;
 	text-align-right;
-	border-color: black;
-	border-width: 10px
+	border: none;
 	top: 0;
 }
 
@@ -90,6 +89,7 @@ form > input, form > textarea {
     height: 18px;
     margin-right: 40px;
     margin-top: 5px;
+    background-color: hsl(0, 2%, 92%);
 }
 
 main {
@@ -147,6 +147,7 @@ button.buttons {
 	width: 55px;
 	line-height: 40px;
 	margin-bottom: 20%;
+	font-size: 100px;
 }
 
 button.quote {
@@ -170,6 +171,7 @@ button.studies {
 button a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 1.2em;
 }
 
 a:hover {
@@ -184,4 +186,3 @@ footer{
     height: 80px;
     width: 100%;
 }
-
