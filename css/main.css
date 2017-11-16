@@ -17,20 +17,24 @@ body {
 	width: 25px;
 	margin-left: 10%;
 	margin-top: 25px;
+	margin-right: 0 auto;
+	color: #fff;
 }
 
 .navigation p {
 	display: inline;
 	margin-top: 15px;
-	margin-left: 10px;
+	margin-left: 0 auto;
 	color: #fff;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	font-weight: 200;
+	font-family: 'Josefin Slab'
 }
 
 .navigation .logo {
 	font-weight: 700;
-	font-size: 1.3em;	
+	font-size: 1.3em;
+
 }
 
 .navigation .trademark {
@@ -111,11 +115,65 @@ main img {
 main h3 {
 	font-family: 'Josefin Slab', serif;
 	float: right;
-	margin-right: 255px;
+	margin-right: 100px;
 	margin-top: 6%;
 	display: inline-block;
-	font-size: 2.1em;
+	font-size: 2.5em;
 	color: #ff7900;
+	line-height: 46px;
+}
+
+main .trademark {
+	font-size: 0.4em;
+	margin-top:
+}
+
+.description {
+	color: hsl(184, 56%, 72%);
+	font-weight: bold;
+}
+
+.buttons {
+	float: right;
+	margin-right: 275px;
+	margin-top: 0;
+	position: relative;
+    bottom: 60px;
+}
+
+button.buttons {
+	font-family: 'Questrial';
+	height: 45px;
+	width: 55px;
+	line-height: 40px;
+	margin-bottom: 20%;
+}
+
+button.quote {
+	background-color: #ff7900;
+	margin-right: 15px;
+	height: 45px;
+	width: 175px;
+	font-family: 'Questrial';
+	color: #fff;
+
+}
+
+button.studies {
+	background-color: hsl(184, 56%, 72%);
+	height: 45px;
+	width: 175px;
+	font-family: 'Questrial';
+	color: #fff;
+}
+
+button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: black;
 }
 
 footer{
