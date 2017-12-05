@@ -78,10 +78,13 @@ body {
 	border: none;
 	top: 0;
 	font-family: 'Josefin Slab', serif;	
+	z-index: -1;
+	position: relative;
 }
 
 form {
 	font-family: 'Josefin Slab', serif;	
+	z-index: -1;
 }
 
 form > input, form > textarea {
@@ -98,9 +101,16 @@ form > input, form > textarea {
     background-color: hsl(0, 2%, 92%);
 }
 
+.searchBar img {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	z-index: -1;
+}
+
 main {
 	position: relative;
-	display: inline;
+	display: inline-block;
 }
 
 main img {
@@ -142,7 +152,7 @@ main .trademark {
 
 .buttons {
 	float: right;
-	margin-right: 275px;
+	margin-right: 280px;
 	margin-top: 0;
 	position: relative;
     bottom: 80px;
@@ -201,3 +211,82 @@ footer{
     height: 80px;
     width: 100%;
 }
+
+/*MEDIA QUERIES*/
+
+/*SCREEN ADJUSTMENTS*/
+@media only screen and (max-width: 1070px) {
+	main h3 {
+		font-family: 'Josefin Slab', serif;
+		float: right;
+		margin-right: 100px;
+		margin-top: 0;
+		display: inline-block;
+		font-size: 2.5em;
+		color: #ff7900;
+		margin-bottom: 120px;
+		line-height: 46px;
+		font-weight: 400;        
+}
+	main img {
+		height: 300px;
+		width: 300px;
+		margin-left: 120px;
+		margin-top: 0;
+		display: inline-block;
+		top: 80px;
+}
+	.buttons {
+		float: right;
+		margin-right: 280px;
+		margin-top: 0;
+		position: relative;
+		bottom: 80px;
+		margin-bottom: 100px;
+}
+	footer {
+		position: fixed;
+}
+
+}
+
+@media only screen and (max-width: 780px) {
+	.navigation ul {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		margin-top: 30px;
+		margin-right: 40px;
+		font-size: .7em;
+		position: absolute;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+	 .studies {
+		background-color: hsl(184, 56%, 72%);
+		height: 45px;
+		width: 175px;
+		font-family: 'Questrial';
+		color: #fff;
+		margin-top: 20px;
+		display: block;
+}
+
+	main img {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.navigation ul {
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+
